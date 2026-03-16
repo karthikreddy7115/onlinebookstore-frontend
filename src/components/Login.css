@@ -1,0 +1,38 @@
+.loginContainer{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(135deg,#667eea,#764ba2);
+}
+
+.loginBox{
+background:white;
+padding:40px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.3);
+width:300px;
+text-align:center;
+}
+
+.loginBox input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border-radius:5px;
+border:1px solid #ccc;
+}
+
+.loginBox button{
+width:100%;
+padding:10px;
+background:#667eea;
+color:white;
+border:none;
+border-radius:5px;
+cursor:pointer;
+}
+
+.loginBox button:hover{
+background:#5a67d8;
+}

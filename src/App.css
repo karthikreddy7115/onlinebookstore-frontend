@@ -1,0 +1,165 @@
+body{
+margin:0;
+font-family:'Segoe UI',sans-serif;
+background:linear-gradient(120deg,#89f7fe,#66a6ff);
+min-height:100vh;
+}
+
+/* NAVBAR */
+
+.navbar{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:15px 40px;
+background:#1e2a38;
+color:white;
+box-shadow:0 3px 10px rgba(0,0,0,0.3);
+}
+
+.logo{
+font-size:24px;
+font-weight:bold;
+letter-spacing:1px;
+}
+
+/* MAIN LAYOUT */
+
+.mainContainer{
+display:flex;
+gap:40px;
+padding:30px;
+}
+
+/* ADD BOOK FORM */
+
+.addBook{
+background:white;
+padding:25px;
+border-radius:12px;
+box-shadow:0 5px 20px rgba(0,0,0,0.2);
+margin-bottom:30px;
+}
+
+.addBook h2{
+margin-top:0;
+}
+
+.addBook input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border-radius:6px;
+border:1px solid #ccc;
+font-size:14px;
+}
+
+.addBook button{
+background:#3498db;
+color:white;
+border:none;
+padding:10px;
+width:100%;
+border-radius:6px;
+cursor:pointer;
+font-size:15px;
+}
+
+.addBook button:hover{
+background:#2980b9;
+}
+
+/* BOOK LIST GRID */
+
+.bookGrid{
+display:grid;
+grid-template-columns:repeat(auto-fill,minmax(220px,1fr));
+gap:20px;
+}
+
+/* BOOK CARD */
+
+.bookCard{
+background:white;
+border-radius:12px;
+padding:15px;
+box-shadow:0 4px 15px rgba(0,0,0,0.2);
+transition:0.3s;
+text-align:center;
+}
+
+.bookCard:hover{
+transform:translateY(-5px);
+}
+
+.bookCard img{
+width:100px;
+height:140px;
+object-fit:cover;
+margin-bottom:10px;
+}
+
+.bookCard h3{
+margin:5px 0;
+color:#2c3e50;
+}
+
+.bookCard button{
+margin-top:8px;
+background:#27ae60;
+color:white;
+border:none;
+padding:8px 14px;
+border-radius:6px;
+cursor:pointer;
+}
+
+.bookCard button:hover{
+background:#1f8f4f;
+}
+
+/* CART */
+
+.cart{
+background:white;
+padding:25px;
+border-radius:12px;
+width:320px;
+box-shadow:0 5px 20px rgba(0,0,0,0.2);
+height:fit-content;
+}
+
+.cart h2{
+margin-top:0;
+}
+
+.cartItem{
+display:flex;
+justify-content:space-between;
+margin-bottom:10px;
+}
+
+.cart button{
+background:#e74c3c;
+color:white;
+border:none;
+padding:5px 10px;
+border-radius:5px;
+cursor:pointer;
+}
+
+.buyBtn{
+background:#2ecc71;
+width:100%;
+padding:10px;
+border:none;
+border-radius:6px;
+margin-top:10px;
+font-size:16px;
+color:white;
+cursor:pointer;
+}
+
+.buyBtn:hover{
+background:#27ae60;
+}
