@@ -14,7 +14,7 @@ return(
 <div key={book.id} style={{marginBottom:"10px"}}>
 
 <p>{book.title}</p>
-<p>₹{book.price}</p>
+<p>${book.price}</p>
 
 <button onClick={()=>removeFromCart(book.id)}>
 Remove
