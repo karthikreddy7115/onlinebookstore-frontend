@@ -16,7 +16,7 @@ price:price,
 imageUrl:imageUrl
 };
 
-fetch("http://localhost:8080/books",{
+fetch(`${import.meta.env.VITE_API_URL}/books`,{
 
 method:"POST",
 
